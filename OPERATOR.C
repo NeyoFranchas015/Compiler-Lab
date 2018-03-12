@@ -81,6 +81,11 @@ case '^' : printf("Bitwise operator");
 	  break;
 case '~' : printf("Bitwise operator");
 	  break;
+case '?' : if(s[1]==':')
+	    printf("Conditional operators");
+	   else
+	   printf("invalid");
+	   break;
 default  : printf("invalid option");
 	  break;
  }
